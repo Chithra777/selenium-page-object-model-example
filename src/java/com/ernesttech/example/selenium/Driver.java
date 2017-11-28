@@ -16,10 +16,11 @@ class Driver {
         // Firefox
         System.setProperty("webdriver.gecko.driver", "geckodriver-osx");
 
-        // Create a new instance of the Firefox driver
+        // Create a new instance of the Web driver
         // Notice that the remainder of the code relies on the interface,
         // not the implementation.
         WebDriver driver = null;
+
         try {
             driver = new ChromeDriver();
 
